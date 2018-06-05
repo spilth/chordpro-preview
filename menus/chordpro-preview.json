@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ChordPro Preview",
+        "command": "chordpro-preview:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ChordPro Preview",
+          "submenu": [
+            {
+              "label": "Toggle Preview",
+              "command": "chordpro-preview:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
